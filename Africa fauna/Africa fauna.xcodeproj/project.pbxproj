@@ -47,6 +47,7 @@
 		F38D0265269F7F3E009018B7 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D0264269F7F3E009018B7 /* ExternalWebLinkView.swift */; };
 		F38D0267269F89AC009018B7 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D0266269F89AC009018B7 /* VideoModel.swift */; };
 		F38D0269269F8AAE009018B7 /* 					VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D0268269F8AAE009018B7 /* 					VideoListItemView.swift */; };
+		F3B972FB26A366E200CE10FE /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B972FA26A366E200CE10FE /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		F38D0264269F7F3E009018B7 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		F38D0266269F89AC009018B7 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		F38D0268269F8AAE009018B7 /* 					VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\t\t\t\t\tVideoListItemView.swift"; sourceTree = "<group>"; };
+		F3B972FA26A366E200CE10FE /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				F37A381126A0E1AA00A271FD /* VideoPlayerView.swift */,
 				F365B1F426A1E95300E7B12C /* MapAnnotationView.swift */,
 				F365B1F626A1F79000E7B12C /* MotionAnimationView.swift */,
+				F3B972FA26A366E200CE10FE /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				F38D0267269F89AC009018B7 /* VideoModel.swift in Sources */,
 				F3210F0C269A27F800428413 /* CodableBundleExtennsion.swift in Sources */,
 				F365B1F326A1C93800E7B12C /* LocationModel.swift in Sources */,
+				F3B972FB26A366E200CE10FE /* AnimalGridItemView.swift in Sources */,
 				F38D025F269F29E5009018B7 /* InsetGalleryView.swift in Sources */,
 				F38D0269269F8AAE009018B7 /* 					VideoListItemView.swift in Sources */,
 				F360E20A269A083500EB43F6 /* GalleryView.swift in Sources */,
