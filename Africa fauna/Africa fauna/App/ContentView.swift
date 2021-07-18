@@ -4,6 +4,10 @@
 //
 //  Created by Erasmo J.F Da Silva on 10/07/21.
 //
+//  Copyright @ Erasmo J.F Da Silva
+//  All right reserved
+//  Better Apps ♡ Less Code
+
 
 import SwiftUI
 
@@ -53,7 +57,9 @@ struct ContentView: View {
                             NavigationLink(destination: AnimalDetailView(animal: animal)) {
                                 AnimalListItemView(animal: animal)
                             }//: Link
-                        }
+                        }// LOOP
+                        CreditsView()
+                            .modifier(CenterModifier())
                     }// LIST
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {

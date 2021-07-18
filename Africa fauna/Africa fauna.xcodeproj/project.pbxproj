@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -47,9 +47,11 @@
 		F38D0265269F7F3E009018B7 /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D0264269F7F3E009018B7 /* ExternalWebLinkView.swift */; };
 		F38D0267269F89AC009018B7 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D0266269F89AC009018B7 /* VideoModel.swift */; };
 		F38D0269269F8AAE009018B7 /* 					VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38D0268269F8AAE009018B7 /* 					VideoListItemView.swift */; };
+		F3A650B826A48B4A009BBD4C /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A650B726A48B4A009BBD4C /* CreditsView.swift */; };
+		F3A650BB26A48FA8009BBD4C /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A650BA26A48FA8009BBD4C /* CenterModifier.swift */; };
 		F3B972FB26A366E200CE10FE /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B972FA26A366E200CE10FE /* AnimalGridItemView.swift */; };
 		F3B9730F26A383FE00CE10FE /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B9730E26A383FE00CE10FE /* Stickers.xcassets */; };
-		F3B9731326A383FE00CE10FE /* Stikers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3B9730C26A383FC00CE10FE /* Stikers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3B9731326A383FE00CE10FE /* Stikers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3B9730C26A383FC00CE10FE /* Stikers.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,9 @@
 		F38D0264269F7F3E009018B7 /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		F38D0266269F89AC009018B7 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		F38D0268269F8AAE009018B7 /* 					VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\t\t\t\t\tVideoListItemView.swift"; sourceTree = "<group>"; };
+		F3A650B726A48B4A009BBD4C /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		F3A650BA26A48FA8009BBD4C /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		F3A650BC26A496D7009BBD4C /* Africa fauna.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Africa fauna.entitlements"; sourceTree = "<group>"; };
 		F3B972FA26A366E200CE10FE /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		F3B9730C26A383FC00CE10FE /* Stikers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stikers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B9730E26A383FE00CE10FE /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
@@ -152,6 +157,7 @@
 				F365B1F426A1E95300E7B12C /* MapAnnotationView.swift */,
 				F365B1F626A1F79000E7B12C /* MotionAnimationView.swift */,
 				F3B972FA26A366E200CE10FE /* AnimalGridItemView.swift */,
+				F3A650B726A48B4A009BBD4C /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +202,8 @@
 		F360E1D62699FB0700EB43F6 /* Africa fauna */ = {
 			isa = PBXGroup;
 			children = (
+				F3A650BC26A496D7009BBD4C /* Africa fauna.entitlements */,
+				F3A650B926A48F7A009BBD4C /* Modifier */,
 				F37A381326A0E55F00A271FD /* Helper */,
 				F3210F0A269A27BC00428413 /* Extension */,
 				F3210F07269A261C00428413 /* Model */,
@@ -265,6 +273,14 @@
 				F37A381426A0E59200A271FD /* VideoPlayerHelper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		F3A650B926A48F7A009BBD4C /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				F3A650BA26A48FA8009BBD4C /* CenterModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 		F3B9730D26A383FC00CE10FE /* Stikers */ = {
@@ -409,8 +425,10 @@
 				F3B972FB26A366E200CE10FE /* AnimalGridItemView.swift in Sources */,
 				F38D025F269F29E5009018B7 /* InsetGalleryView.swift in Sources */,
 				F38D0269269F8AAE009018B7 /* 					VideoListItemView.swift in Sources */,
+				F3A650B826A48B4A009BBD4C /* CreditsView.swift in Sources */,
 				F360E20A269A083500EB43F6 /* GalleryView.swift in Sources */,
 				F365B1F726A1F79000E7B12C /* MotionAnimationView.swift in Sources */,
+				F3A650BB26A48FA8009BBD4C /* CenterModifier.swift in Sources */,
 				F38D025D269F1BF4009018B7 /* HeadingView.swift in Sources */,
 				F37A381226A0E1AA00A271FD /* VideoPlayerView.swift in Sources */,
 			);
@@ -421,6 +439,7 @@
 /* Begin PBXTargetDependency section */
 		F3B9731226A383FE00CE10FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = F3B9730B26A383FC00CE10FE /* Stikers */;
 			targetProxy = F3B9731126A383FE00CE10FE /* PBXContainerItemProxy */;
 		};
@@ -548,6 +567,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Africa fauna/Africa fauna.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa fauna/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -559,6 +579,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.erasmojf.Africa-fauna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -569,6 +590,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Africa fauna/Africa fauna.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa fauna/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -580,6 +602,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.erasmojf.Africa-fauna";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -595,6 +618,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.erasmojf.Africa-fauna.Stikers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -609,6 +633,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.erasmojf.Africa-fauna.Stikers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
